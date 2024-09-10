@@ -1,3 +1,8 @@
+根据redis-exporter v1.62.0添加basic认证 访问/metrics时需要加入验证
+basicAuthUser     BASIC_AUTH_USER
+basicAuthPwd      BASIC_AUTH_PASSWORD
+
+
 # Prometheus ValKey & Redis Metrics Exporter
 
 [![Build Status](https://drone-github.21zoo.com/api/badges/oliver006/redis_exporter/status.svg)](https://drone-github.21zoo.com/oliver006/redis_exporter)
